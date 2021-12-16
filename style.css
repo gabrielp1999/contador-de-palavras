@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #7159c1;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+h2{
+    margin: 5px auto 5px auto;
+}
+
+span{
+    font-size: 15px;
+}
+
+input{
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width:35vw;
+    height:300px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.engloba{
+    display: flex;
+}
+
+#area {
+    max-height: 100px;
+    min-width: 150px;
+    resize: none;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.card{
+    height: 20px;
+    width: 100%;
+    margin: 2px;
+    font-size: 13px;
+    margin-top: 5px;
+    display: flex;
+    align-items: flex-end;
+    padding: 2px;
+}
+
+#direita{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#numerosLetras, #numerosPalavras {
+    display: none;
+}

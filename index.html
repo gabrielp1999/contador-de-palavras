@@ -9,8 +9,31 @@
 </head>
 <body>
 
-<textarea name="" id="" cols="30" rows="10"></textarea>
+    <section>
+        <h2>Contador De Palavras</h2>
+        <textarea name="" id="area" cols="30" rows="10" onkeyup="contarLetrasPalavras(this)"></textarea>
 
-<script src="./script.js"></script>
+        <div class="engloba"> 
+            <div class="card">
+                <span id="numerosLetras">0 letras</span>
+            </div>
+            <div id="direita" class="card">
+                <span id="numerosPalavras">0 palavras</span>
+            </div>
+        </div>
+
+       <div class="engloba"> 
+            <div class="card">
+                <input type="checkbox" name="" onchange="exibirLetras(this)">
+                <label for="">exibir quantidade de letras</label>
+            </div>
+            <div class="card">
+                <input type="checkbox" name="" onchange="exibirPalavras(this)">
+                <label for="">exibir quantidade de palavras</label>
+            </div>
+        </div>
+
+    </section>
+    <script src="./script.js"></script>
 </body>
 </html>
