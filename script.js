@@ -7,7 +7,7 @@ function exibirLetras(value) {
         numerosLetras.style.display = "none";
     }
 
-}
+}j
 
 function exibirPalavras(value) {
     const numerosPalavras = document.getElementById('numerosPalavras');
